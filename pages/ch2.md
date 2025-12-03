@@ -25,7 +25,7 @@ By the end of this chapter, you will have all required drone nodes—such as a S
 ### 2.2.1 Generate the Join Script
 
 * In the Add Nodes page, type a name for your new device (e.g., ``surveillance-drone``).
-* Click Generate Script.
+* Click **Generate Script**.
 
 * Arculus produces a custom join script containing: Device name, Device identity token, Backend join URL, Required dependencies
 * Click Copy to Clipboard to copy the script.
@@ -39,7 +39,11 @@ By the end of this chapter, you will have all required drone nodes—such as a S
 
 <p align="center"> <img src="../img/ch.2_AWS_region.png" width="900px"></p>
 
-
+* On the top left corner, search "**EC2**" and click on the service.
 
 <p align="center"> <img src="../img/ch2_EC2_search.png" width="900px"></p>
+
+* On the right side of the page, click "**Instances**" 
+
+<p align="center"> <img src="../img/ch2_instances_tab.png" width="900px"></p>
 
