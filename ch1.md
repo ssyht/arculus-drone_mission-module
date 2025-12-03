@@ -38,21 +38,22 @@ Please use the links below to learn the related information for this lab.
 
 ## 1.4 Overview:
 
-In this lab, we’ll use Terraform to stand up a secure, repeatable AWS scaffold for the Arculus edge-security testbed and learn the core ideas of Infrastructure-as-Code (IaC).
+In this lab, we’ll use the Arculus Portal to configure, secure, and execute autonomous drone missions on your already-deployed Arculus testbed. You will learn how to onboard new drone devices (EC2 instances), assign trusted roles, validate mission capabilities, generate encrypted mission manifests, and run full mission simulations — all while observing how Arculus enforces Zero-Trust in real time.
 
-**What is Terraform?** A tool to declare infrastructure (VPCs, subnets, security groups, EC2, IAM, KMS, SSM, Secrets Manager) in code. You write the desired state; Terraform plans the changes and applies them safely.
+Drone nodes are lightweight Linux EC2 instances that join the Arculus cluster and take on specific roles such as Surveillance Drone, Supply Drone, Relay Drone, or Mission Controller. Each drone must be enrolled, approved, and assigned capabilities before it can participate in a mission. Arculus automatically validates whether a device has the privileges needed to execute its tasks.
 
-**What is Arculus?** Arculus is a lightweight edge-security platform and web portal that we’ll use as a teaching testbed for Zero-Trust. You can think of it as a “security control tower” in front of your Linux nodes and services: every machine must check in, prove who it is, and then is only allowed to talk to what the policy permits. Through a simple browser UI you enroll nodes, give them identities, set basic “who can talk to whom” rules, and watch live logs that show which connections are allowed or blocked. In this lab, you’ll use Arculus as a visual way to see network security decisions that are usually hidden, without needing deep security expertise.
+Arculus provides an interactive Mission Planning Dashboard where you can select devices, set mission criticality, choose map destinations, and download encrypted mission configuration files. During execution, Arculus activates temporary network-access policies, streams live telemetry, and enforces strict task-based restrictions to ensure that each drone performs only what it is authorized to do.
 
-**Why Terraform for this module?**
+**Why Arculus for this module?**
 
-* **Repeatable**: One command recreates the same environment for every student/instructor.
+* Zero-Trust Simulation: Every drone must authenticate, be approved, and possess the correct privileges before the mission can begin.
 
-* **Safe changes**: Plans show what will change before it changes.
+* Dynamic Policies: Arculus creates and removes network policies automatically during mission execution.
 
-* **Composable**: Modules let us reuse patterns (network, instance, guardrails).
+* Hands-on Device Security: Students learn how enrollment, attestation, capability validation, and mission manifest verification work in practice.
 
-* **Cloud-native security**: Enforce least-privilege IAM, permission boundaries, SSM-only access, KMS encryption, and tight security groups from day one.
+* Safe Experimentation: Live mission execution includes built-in DDIL simulations (GPS spoofing, comms loss, battery constraints, etc.) without risking real hardware.
+
 
 ## 1.5 Conceptual Overview
 
