@@ -30,11 +30,10 @@ To follow along and get the most out of this module, you should:
 ## 1.3 References to guide lab work
 Please use the links below to learn the related information for this lab. 
 
-* <a href = "https://developer.hashicorp.com/terraform/tutorials">*Terraform by HashiCorp*</a> - Official docs and tutorials to learn Infrastructure as Code with Terraform
-* <a href = "https://registry.terraform.io/providers/hashicorp/aws/latest">*Terraform AWS Provider*</a> - Registry page documenting every AWS resource you can manage with Terraform, plus usage examples.
+* <a href = "https://github.com/arculus-zt/arculus-sw/tree/master">*Arcluus GitHub Repository*</a> - The GitHub repository for all files related to the software of Arculus.
 * <a href="https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-welcome.html">*AWS CLI*</a> - Command-line tool to configure credentials and run AWS service commands from your terminal.
 * <a href ="https://docs.aws.amazon.com/systems-manager/latest/userguide/session-manager.html">*AWS Systems Manager SSM*</a> - Secure, logged shell access to instances via browser/CLI without SSH keys or open ports.
-* <a href = "https://docs.aws.amazon.com/kms/latest/developerguide/overview.html">*AWS KMS*</a> - Managed service for creating, managing, and using encryption keys and cryptographic operations.
+* <a href = "https://docs.k3s.io/">*AWS K3s*</a> - K3s - Lightweight Kubernetes
 * <a href = "https://aws.amazon.com/">*AWS (Amazon Web Services)*</a> - A cloud platform that offers a variety of services, including storage, compute, and databases. AWS allows users to build and run applications on-demand.
 
 ## 1.4 Overview:
