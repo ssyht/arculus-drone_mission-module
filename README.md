@@ -7,7 +7,7 @@ In this lab, students will enroll EC2-based drone nodes, configure trusted devic
 
 ---
 
-## 📌 Module Overview
+## Module Overview
 
 This module teaches students how to use Arculus as a secure “mission control tower” for distributed drone devices. Students will learn how drones authenticate into the Arculus cluster, how Zero-Trust rules are enforced at the device and mission levels, and how Arculus dynamically applies and removes network policies during mission execution.
 
@@ -15,7 +15,7 @@ Students will also explore DDIL (Denied, Degraded, Intermittent, Limited) scenar
 
 ---
 
-## 📚 What You Will Learn
+## What You Will Learn
 
 By completing this lab, students will be able to:
 
@@ -32,7 +32,7 @@ By completing this lab, students will be able to:
 
 ---
 
-## 🧩 Prerequisites
+## Prerequisites
 
 Before starting this module, students must have:
 
@@ -45,5 +45,4 @@ Before starting this module, students must have:
 
 ---
 
-## 🛠️ Repository Structure
 
