@@ -1,22 +1,30 @@
 <a name = "Pg1"></a>
 
-# **Chapter 1** - Overview & Getting Started with Terraform 
+# **Chapter 1** - Overview
 
 ## 1.1 Purpose of the Lab
-In this lab, you will learn how to use Terraform as the Infrastructure-as-Code (IaC) backbone for the Arculus edge-security testbed. You’ll learn how to describe cloud resources declaratively (VPCs, subnets, security groups, EC2 instances, IAM, SSM, KMS, and Secrets Manager), apply guardrails (least-privilege IAM, permission boundaries, encrypted storage, SSM-only access), and package repeatable environments as modules for students and instructors.
+In this lab, you will learn how to use the Arculus Ground Control Portal to configure, manage, and execute secure drone missions on the Arculus edge-security testbed. Building on the Terraform module you completed earlier, this lab assumes your Arculus Portal and controller node are already provisioned and running.
+
+You will explore how to onboard new drone devices (EC2 instances), securely join them to the Arculus cluster, configure each device with trusted drone roles and capabilities, create mission manifests, and launch fully-simulated missions with live monitoring. You’ll also learn how Arculus enforces Zero-Trust through role-based access control, device attestation, dynamic network policies, and mission-driven privilege enforcement (TBAC).
 
 ## 1.2 Prerequisites
-To follow along and get the most out of this lab, you should:
+To follow along and get the most out of this module, you should:
 
-* Know basic AWS concepts (VPC, EC2, IAM).
+* Have the Arculus Portal fully deployed using the previous Terraform module.
 
-* Be comfortable using a terminal and Git.
+* Have three or more EC2 instances available to use as drones (or be ready to provision them).
 
-* Have Terraform installed locally or use AWS CloudShell.
+* Understand basic AWS concepts (EC2, key pairs, security groups).
+
+* Be comfortable using a terminal (to run join scripts on each drone EC2).
+
+* Have access to Git and the ability to SSH into EC2 instances.
+
+* Have basic familiarity with the Arculus Portal interface (user management, device management).
 
 * Understand JSON/HCL at a beginner level.
 
-* Basic networking knowledge (CIDR, inbound/outbound rules).
+* Have a working knowledge of networking basics (CIDR, ports, inbound/outbound rules).
 
 
 ## 1.3 References to guide lab work
