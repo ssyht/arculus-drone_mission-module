@@ -32,7 +32,7 @@ Please use the links below to learn the related information for this lab.
 
 * <a href = "https://github.com/arculus-zt/arculus-sw/tree/master">*Arcluus GitHub Repository*</a> - The GitHub repository for all files related to the software of Arculus.
 * <a href = "https://docs.k3s.io/">*AWS K3s*</a> - K3s - Lightweight Kubernetes
-* <a href = "https://aws.amazon.com/">*AWS (Amazon Web Services)*</a> - A cloud platform that offers a variety of services, including storage, compute, and databases. AWS allows users to build and run applications on-demand.
+* <a href = "https://aws.amazon.com/">*AWS (Amazon Web Services)*</a> - A cloud platform that offers a variety of services, including storage, compute, and databases.
 
 ## 1.4 Overview:
 
