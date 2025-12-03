@@ -13,7 +13,7 @@ By the end of this chapter, you will have all required drone nodes—such as a S
 * Log in to the Arculus Ground Control Portal using your instructor-provided credentials.
 * From the left sidebar, click Add Nodes.
 
-<p align="center"> <img src="../img/ch2_addnode-left.png" width="900px"></p>
+<p align="center"> <img src="../img/ch2_add_node_left.png" width="900px"></p>
 
 
 * You’ll see a simple form where you can enter the name of the new device you want to add to the cluster.
