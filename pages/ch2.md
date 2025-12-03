@@ -47,3 +47,8 @@ By the end of this chapter, you will have all required drone nodes—such as a S
 
 <p align="center"> <img src="../img/ch2_instances_tab.png" width="900px"></p>
 
+* On the top-right corner, click "**Launch Instance**". 
+
+<p align="center"> <img src="../img/ch2_launch-ec2.png" width="900px"></p>
+
+
