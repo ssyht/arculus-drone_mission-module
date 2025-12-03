@@ -8,12 +8,18 @@ You’ll start by navigating to the Add Nodes page in the Arculus UI, where you 
 
 By the end of this chapter, you will have all required drone nodes—such as a Surveillance Drone, Supply Drone, Relay Drone, and Mission Controller.
 
-## 2.2 Navigating to CloudShell
+## 2.2 Adding Drone Nodes to the Arculus Cluster
 
-* Sign into your <a href = "https://console.aws.amazon.com/">*AWS Management Console*</a>
-* Make sure to select the US East (N. Virginia) region in the top-right part of your screen.
+* Log in to the Arculus Ground Control Portal using your instructor-provided credentials.
+* From the left sidebar, click Add Nodes.
 
-<p align="center"> <img src="../img/ch.2_AWS_region.png" width="900px"></p>
+<p align="center"> <img src="../img/ch2_addnode-left.png" width="900px"></p>
+
+
+* You’ll see a simple form where you can enter the name of the new device you want to add to the cluster.
+
+
+<p align="center"> <img src="../img/ch2_addnode_page.png" width="900px"></p>
 
 
 * In the top search bar, type "CloudShell" and select **CloudShell** from the services list.
