@@ -8,8 +8,6 @@ You’ll start by navigating to the Add Nodes page in the Arculus UI, where you 
 
 By the end of this chapter, you will have all required drone nodes—such as a Surveillance Drone, Supply Drone, Relay Drone, and Mission Controller.
 
-<p align="center"> <img src="../img/Ch2_concept_overview.png" width="900px"></p>
-
 ## 2.2 Navigating to CloudShell
 
 * Sign into your <a href = "https://console.aws.amazon.com/">*AWS Management Console*</a>
