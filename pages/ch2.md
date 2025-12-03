@@ -22,7 +22,7 @@ By the end of this chapter, you will have all required drone nodes—such as a S
 <p align="center"> <img src="../img/ch2_addnode_page.png" width="900px"></p>
 
 
-## 2.3 Generate the Join Script
+### 2.2.1 Generate the Join Script
 
 * In the Add Nodes page, type a name for your new device (e.g., ``surveillance-drone``).
 * Click Generate Script.
@@ -32,4 +32,14 @@ By the end of this chapter, you will have all required drone nodes—such as a S
 
 <p align="center"> <img src="../img/ch2_dronenaming.png" width="900px"></p>
 
+### 2.2.2 Launch an EC2 instance
+
+* Sign back into your AWS Management Console
+* Make sure to select the **US East (N. Virginia)** region in the top-right part of your screen.
+
+<p align="center"> <img src="../img/ch.2_AWS_region.png" width="900px"></p>
+
+
+
+<p align="center"> <img src="../img/ch2_EC2_search.png" width="900px"></p>
 
