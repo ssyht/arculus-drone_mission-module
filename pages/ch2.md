@@ -2,9 +2,11 @@
 
 ## 2.1 Overview
 
-In this chapter, you’ll use AWS CloudShell (browser-based shell with AWS CLI) to run Terraform. We’ll keep the setup lightweight by installing Terraform to /tmp for this session and storing Terraform state and plugin cache in /tmp to avoid home-directory limits. 
+In this chapter, you’ll use the Arculus Ground Control Portal to begin adding drone devices (EC2 instances) into your Arculus cluster. Since the Arculus Portal is already deployed from the previous module, our focus here is on onboarding new nodes, approving join requests, and preparing each device to become a mission-capable drone.
 
-You’ll write a minimal Terraform config that creates a VPC, public subnet, internet route, a unique egress-only security group, and an Ubuntu 22.04 t2.medium EC2 instance—then apply, verify outputs, and destroy when finished.
+You’ll start by navigating to the Add Nodes page in the Arculus UI, where you will generate a custom enrollment script for each drone. This script will be copied into your EC2 instances and executed to initiate a secure cluster join request. Once the request appears in the Device Management Dashboard, you’ll approve the node and verify that it successfully registers as part of the cluster.
+
+By the end of this chapter, you will have all required drone nodes—such as a Surveillance Drone, Supply Drone, Relay Drone, and Mission Controller.
 
 <p align="center"> <img src="../img/Ch2_concept_overview.png" width="900px"></p>
 
