@@ -22,17 +22,17 @@ By the end of this chapter, you will have all required drone nodes—such as a S
 <p align="center"> <img src="../img/ch2_addnode_page.png" width="900px"></p>
 
 
-* In the top search bar, type "CloudShell" and select **CloudShell** from the services list.
+## 2.3 Generate the Join Script
 
-<p align="center"> <img src="../img/ch2_CloudShell_search.png" width="900px"></p>
+* In the Add Nodes page, type a name for your new device (e.g., ``surveillance-drone``).
+* Click Generate Script.
 
-* You will arrive in this CloudShell terminal:
+* Arculus produces a custom join script containing:
 
-<p align="center"> <img src="../img/Ch2_CloudShell_StartPage.png" width="900px"></p>
-
-## 2.2 Setting up Terraform
-
-Install Terraform into /tmp for this session, reset env vars so it uses CloudShell’s role credentials (no profiles), and point Terraform’s state and plugin cache to /tmp to avoid home-directory quotas—then move into the working directory.
+- Device name
+- Device identity token
+- Backend join URL
+- Required dependencies
 
 ### 2.2.1 Set the AWS region for this session
 
