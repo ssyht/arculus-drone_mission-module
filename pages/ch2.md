@@ -1,4 +1,4 @@
-# **Chapter 2** - Provisioning EC2 using CloudShell & Terraform
+# **Chapter 2** - Adding Drone Nodes to the Arculus Cluster
 
 ## 2.1 Overview
 
