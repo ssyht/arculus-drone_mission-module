@@ -100,7 +100,7 @@ By the end of this chapter, you will have all required drone nodes—such as a S
 
 * Paste the **Join Script** in the instance.
 
-<p align="center"> <img src="../img/ch2_nav_mgdev.png" width="700px"></p>
+<p align="center"> <img src="../img/ch2_nav_mgdev.png" width="500px"></p>
 
 
 
