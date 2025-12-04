@@ -98,9 +98,16 @@ By the end of this chapter, you will have all required drone nodes—such as a S
 
 <p align="center"> <img src="../img/ch2_view.png" width="700px"></p>
 
-* Paste the **Join Script** in the instance.
+* Paste the **Join Script** that was copied from the portal into the instance.
+
+* Upon completion of the command run, navigate back to the Arculus portal and click on **Manage Edge Devices**
 
 <p align="center"> <img src="../img/ch2_nav_mgdev.png" width="300px"></p>
+
+* You should be able to see the surveillance drone in the cluster.
+
+ <p align="center"> <img src="../img/ch2_dev_cluster.png" width="300px"></p>
+
 
 
 
