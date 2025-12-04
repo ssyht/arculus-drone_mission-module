@@ -110,7 +110,11 @@ By the end of this chapter, you will have all required drone nodes—such as a S
 
  ## 2.3 As a Result
 
- 
+By completing this chapter, you have successfully onboarded your first drone device into the Arculus Zero-Trust cluster. After running the generated join script on your EC2 instance, the device initiated a secure enrollment workflow, appeared in the Cluster Join Requests panel, and—once approved—registered as an active node inside the Arculus environment.
+
+You should now see the newly added surveillance drone under Manage Edge Devices → More Devices in the Cluster, confirming that the node has joined the K3s backend, established trust with the control plane, and is ready for further configuration. At this stage, the device is recognized by Arculus but does not yet have a drone role, mission privileges, or allowed operations attached to it.
+
+In the next chapter, you will transform these raw nodes into fully trusted drone units by assigning roles, defining capabilities, and establishing the permissions required for mission execution. With at least one device successfully enrolled, you have completed the foundational step of building a mission-ready drone fleet.
 
 
 
