@@ -106,7 +106,7 @@ By the end of this chapter, you will have all required drone nodes—such as a S
 
 * You should be able to see the surveillance drone in the cluster.
 
- <p align="center"> <img src="../img/ch2_dev_cluster.png" width="300px"></p>
+ <p align="center"> <img src="../img/ch2_dev_cluster.png" width="700px"></p>
 
 
 
