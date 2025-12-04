@@ -84,11 +84,11 @@ By the end of this chapter, you will have all required drone nodes—such as a S
 
 * In the search bar, search for **drone1** and you will see three of your launched instances.
 
-<p align="center"> <img src="../img/ch2_t1.png" width="1000px"></p>
+<p align="center"> <img src="../img/ch2_t1.png" width="800px"></p>
 
 * Rename two of those launched instance. For example, in the picture below, change the names to **drone2** and **drone3***
 
-<p align="center"> <img src="../img/ch2_t2.png" width="700px"></p>
+<p align="center"> <img src="../img/ch2_t2.png" width="800px"></p>
 
 
 
