@@ -51,4 +51,38 @@ By the end of this chapter, you will have all required drone nodes—such as a S
 
 <p align="center"> <img src="../img/ch2_launch-ec2.png" width="900px"></p>
 
+* Make sure to launch **3 EC2 instances**. These three instances are your drones for this module.
+
+<p align="center"> <img src="../img/ch2_3_instances.png" width="900px"></p>
+
+* Give your instances a name. For example, in the picture below, "``drone1``". In the three instances that are launched, we will be changing the names of the other two later in the exercises.
+
+<p align="center"> <img src="../img/ch2_instance_naming.png" width="900px"></p>
+
+* Select **Ubuntu 24.04 LTS** as the instance's operating system.
+
+<p align="center"> <img src="../img/ch2_instance_os.png" width="900px"></p>
+
+* The instance type we will be using for this module is **t2.medium**.
+
+<p align="center"> <img src="../img/ch2_instance_t2.png" width="900px"></p>
+
+* Use the same key that was created when provisioning resources using Terraform for the Arculus portal. If not created, you can create new key pair.
+
+<p align="center"> <img src="../img/ch2_key.png" width="900px"></p>
+
+* Select the **existing security group** option. Within the drop-down menu, search for the arculus security group that was created when provisioning resources for the Arculus portal using Terraform.
+
+<p align="center"> <img src="../img/ch2_existing_sg.png" width="900px"></p>
+
+* Click "**Launch**"
+
+<p align="center"> <img src="../img/ch2_launch.png" width="900px"></p>
+
+
+
+
+
+
+
 
