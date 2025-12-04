@@ -86,10 +86,15 @@ By the end of this chapter, you will have all required drone nodes—such as a S
 
 <p align="center"> <img src="../img/ch2_t1.png" width="800px"></p>
 
-* Rename two of those launched instance. For example, in the picture below, change the names to **drone2** and **drone3***
+* Rename two of those launched instance. For example, in the picture below, change the names to **drone2** and **drone3**
 
 <p align="center"> <img src="../img/ch2_t2.png" width="800px"></p>
 
+### 2.2.4 Prepare the instance
+
+* Connect the **drone1** instance.
+
+<p align="center"> <img src="../img/ch2_d1_connect.png" width="700px"></p>
 
 
 
